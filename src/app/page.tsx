@@ -251,7 +251,7 @@ export default function Home() {
             <p className="text-gray-400 text-lg">Comprehensive technology solutions designed for scale, security, and performance across GCC markets.</p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
                 title: "Software House",
@@ -270,6 +270,12 @@ export default function Home() {
                 description: "Sustainable building design, LEED certification, and energy-efficient architecture.",
                 icon: Leaf,
                 link: "/services/green-buildings"
+              },
+              {
+                title: "Clean Energy",
+                description: "Clean energy generation, storage, transformers, and deep-tech solutions.",
+                icon: Zap,
+                link: "/services/clean-energy"
               }
             ].map((service, index) => (
               <motion.div variants={serviceCardVariants} key={index} className="h-full transform-style-3d">

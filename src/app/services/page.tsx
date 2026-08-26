@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Code, MonitorSmartphone, Leaf, Sparkles, CheckCircle2, Trophy, Users, Globe2, Activity, ChevronDown } from "lucide-react";
+import { ArrowRight, Code, MonitorSmartphone, Leaf, Sparkles, CheckCircle2, Trophy, Users, Globe2, Activity, ChevronDown, Zap } from "lucide-react";
 
 export default function ServicesPage() {
   const services = [
@@ -29,6 +29,15 @@ export default function ServicesPage() {
       features: ["LEED Certification", "Energy Modeling", "Sustainable Design", "Eco-friendly Materials"],
       accent: "from-emerald-400 to-cyan-500",
       tagline: "Sustainable Architecture"
+    },
+    {
+      title: "Clean Energy Solutions",
+      description: "Clean energy generation, storage, transformers, and deep-tech energy solutions.",
+      icon: Zap,
+      link: "/services/clean-energy",
+      features: ["Energy Generation", "Energy Storage", "Transformers", "EPC"],
+      accent: "from-blue-400 to-cyan-500",
+      tagline: "Deep-Tech Clean Energy"
     }
   ];
 

@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
         
         <div className="prose prose-invert max-w-none text-gray-300">
           <p className="mb-6">
-            Quantum Vortexa FZE LLC ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+            Quantum Vortexa FZE LLC (A Neo Energ Group Company) ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
           </p>
 
           <h2 className="text-2xl font-bold text-white mt-10 mb-4">1. UAE Personal Data Protection Law (PDPL) Compliance</h2>
@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
           <p className="mb-6">
             If you have questions or comments about this Privacy Policy, please contact us at:
             <br /><br />
-            Quantum Vortexa FZE LLC<br />
+            Quantum Vortexa FZE LLC (A Neo Energ Group Company)<br />
             CWS-1V-223327, 26th Floor, Amber Gem Tower<br />
             Ajman Free Zone, UAE<br />
             Phone: <a href="tel:+971544566332" className="text-primary hover:underline">+971 54 456 6332</a>

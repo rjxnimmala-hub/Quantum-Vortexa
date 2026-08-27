@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Quantum Vortexa | Enterprise Tech Solutions",
+  title: "Quantum Vortexa (A Neo Energ Group Company) | Enterprise Tech Solutions",
   description: "Enterprise-grade technology solutions for UAE and GCC. Cybersecurity, AI/ML, Cloud Architecture, and SAP Services.",
 };
 

@@ -46,7 +46,7 @@ export default function CodeInterfaceSection() {
               <div className="pl-4 text-gray-300 whitespace-nowrap">
                 <span className="text-pink-400">const</span> <span className="text-blue-400">quantumVortexa</span> <span className="text-pink-400">=</span> {'{'}
                 <br/>
-                {'  '}name: <span className="text-green-300">"Quantum Vortexa FZE LLC"</span>,
+                {'  '}name: <span className="text-green-300">"Quantum Vortexa FZE LLC (A Neo Energ Group Company)"</span>,
                 <br/>
                 {'  '}headquarters: <span className="text-green-300">"Ajman, UAE"</span>,
                 <br/>

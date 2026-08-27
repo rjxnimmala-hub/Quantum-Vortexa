@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     });
 
     const mailOptions = {
-      from: '"Quantum Vortexa Website" <info@qvortexa.com>',
+      from: '"Quantum Vortexa (A Neo Energ Group Company) Website" <info@qvortexa.com>',
       to: "pranay.b@qvortexa.com, info@qvortexa.com",
       replyTo: email,
       subject: `New Lead: ${name} - ${serviceInterest}`,

@@ -386,7 +386,7 @@ export default function Home() {
               content={
                 <>
                   <p>
-                    Pranay Kumar Burre is the Director and Founder of <strong className="text-white font-semibold">Quantum Vortexa FZE LLC</strong>, leading the company's vision for innovation, strategic growth, and global business development.
+                    Pranay Kumar Burre is the Director and Founder of <strong className="text-white font-semibold">Quantum Vortexa FZE LLC (A Neo Energ Group Company)</strong>, leading the company's vision for innovation, strategic growth, and global business development.
                   </p>
                   <p>
                     He is a results-driven professional with experience in operations management, business leadership, and strategic execution. As Managing Director at Spartanz and Director of Operations at CS Software (Dubai), he brings a strong focus on operational efficiency, business growth, and delivering value through effective leadership.
@@ -477,7 +477,7 @@ export default function Home() {
                     A client-focused leader with expertise in building high-value corporate relationships and driving strategic growth. 
                   </p>
                   <p>
-                    Rajasekhar specializes in understanding client challenges, designing effective delivery plans, and ensuring seamless execution. With strong skills in business development, renewals, and team leadership, he is committed to creating long-term partnerships and a strong global revenue pipeline for <strong className="text-white font-semibold">Quantum Vortexa</strong>.
+                    Rajasekhar specializes in understanding client challenges, designing effective delivery plans, and ensuring seamless execution. With strong skills in business development, renewals, and team leadership, he is committed to creating long-term partnerships and a strong global revenue pipeline for <strong className="text-white font-semibold">Quantum Vortexa (A Neo Energ Group Company)</strong>.
                   </p>
                 </>
               }
@@ -500,7 +500,7 @@ export default function Home() {
             {/* Background Image */}
             <Image 
               src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Contact Quantum Vortexa"
+              alt="Contact Quantum Vortexa (A Neo Energ Group Company)"
               fill
               className="object-cover opacity-50 filter grayscale-[20%]"
             />

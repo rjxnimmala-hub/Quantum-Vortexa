@@ -226,7 +226,7 @@ export default function ServicesPage() {
             Ready to transform your enterprise?
           </h2>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-300">
-            Partner with Quantum Vortexa to accelerate secure, intelligent
+            Partner with Quantum Vortexa (A Neo Energ Group Company) to accelerate secure, intelligent
             digital transformation across AI, cybersecurity, cloud and
             enterprise platforms.
           </p>

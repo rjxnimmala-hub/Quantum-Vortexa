@@ -62,7 +62,7 @@ export default function CybersecurityServicePage() {
 
         {/* Why Choose Us */}
         <div className="p-10 rounded-3xl bg-gradient-to-r from-white/5 to-white/10 border border-white/10 mb-24">
-          <h2 className="text-3xl font-bold text-white mb-10 text-center">The Quantum Vortexa Advantage</h2>
+          <h2 className="text-3xl font-bold text-white mb-10 text-center">The Quantum Vortexa (A Neo Energ Group Company) Advantage</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center text-center">
               <CheckCircle className="w-8 h-8 text-accent mb-4" />

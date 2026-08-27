@@ -53,7 +53,7 @@ export default function AboutPage() {
 
         <section className="mx-auto max-w-5xl text-center mb-24">
           <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-5 py-2 text-cyan-300">
-            <Sparkles size={16}/> About Quantum Vortexa
+            <Sparkles size={16}/> About Quantum Vortexa 
           </div>
 
           <h1 className="mt-8 text-5xl md:text-7xl font-black tracking-tight text-white">
@@ -65,7 +65,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-400">
-            Quantum Vortexa FZE LLC is a premier technology partner helping
+            Quantum Vortexa FZE LLC (A Neo Energ Group Company) is a premier technology partner helping
             enterprises accelerate digital transformation through AI,
             cybersecurity, cloud infrastructure and enterprise engineering.
           </p>
@@ -100,12 +100,61 @@ export default function AboutPage() {
           ))}
         </section>
 
+        <section className="mb-24">
+          <div className="rounded-[36px] border border-cyan-400/20 bg-white/5 p-12 backdrop-blur-xl md:p-16 relative overflow-hidden">
+            <div className="absolute top-0 right-0 -mt-16 -mr-16 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
+            <div className="grid gap-12 lg:grid-cols-2 lg:items-center relative z-10">
+              <div>
+                <span className="text-cyan-300 uppercase tracking-[0.25em] text-sm font-semibold">Strategic Alliance</span>
+                <h2 className="mt-4 text-3xl font-bold text-white md:text-4xl">A Neo Energ Group Company</h2>
+                <p className="mt-6 leading-8 text-gray-400">
+                  Being part of the Neo Energ Group empowers Quantum Vortexa with global resources, deep industry insights, and robust backing. This strategic alignment allows us to seamlessly blend localized agility with international standards of excellence, delivering transformative technology solutions that scale across borders.
+                </p>
+                <div className="mt-8 space-y-6">
+                  <div className="flex items-center gap-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-400/20">
+                      <Globe2 className="h-6 w-6 text-cyan-300" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-white">Global Network</h4>
+                      <p className="text-sm text-gray-400">Access to worldwide technology innovations and expertise.</p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-400/20">
+                      <Shield className="h-6 w-6 text-cyan-300" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-white">Enterprise Stability</h4>
+                      <p className="text-sm text-gray-400">Backed by the strength and reliability of the Neo Energ Group.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="relative h-64 overflow-hidden rounded-[24px] lg:h-full lg:min-h-[350px] border border-white/10 shadow-2xl">
+                <img 
+                  src="https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  alt="Corporate Partnership" 
+                  className="absolute inset-0 h-full w-full object-cover" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-tr from-black/80 via-black/40 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <div className="inline-flex items-center gap-2 rounded-full border border-cyan-400/30 bg-black/50 px-4 py-2 backdrop-blur-md">
+                    <Sparkles size={16} className="text-cyan-400" />
+                    <span className="text-sm font-medium text-white">Driving Global Innovation</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="grid items-center gap-16 lg:grid-cols-2 mb-24">
           <div>
             <span className="text-cyan-300 uppercase tracking-[0.25em] text-sm">UAE Presence</span>
             <h2 className="mt-4 text-4xl font-bold text-white">Deep Roots in the UAE</h2>
             <p className="mt-6 leading-8 text-gray-400">
-              Headquartered in Ajman Free Zone, Quantum Vortexa combines deep regional knowledge with global engineering excellence. Every solution is designed for security, compliance and long-term scalability.
+              Headquartered in Ajman Free Zone, Quantum Vortexa (A Neo Energ Group Company) combines deep regional knowledge with global engineering excellence. Every solution is designed for security, compliance and long-term scalability.
             </p>
 
             <div className="mt-8 space-y-4">
@@ -195,7 +244,7 @@ export default function AboutPage() {
         <section className="rounded-[40px] border border-cyan-400/20 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 p-12 text-center">
           <h2 className="text-4xl font-bold text-white">Building Tomorrow's Digital Infrastructure</h2>
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-300">
-            Partner with Quantum Vortexa to accelerate secure digital transformation across AI, cybersecurity, cloud and enterprise platforms.
+            Partner with Quantum Vortexa (A Neo Energ Group Company) to accelerate secure digital transformation across AI, cybersecurity, cloud and enterprise platforms.
           </p>
           <button className="mt-10 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 px-8 py-4 font-semibold text-white transition hover:scale-105">
             Contact Us

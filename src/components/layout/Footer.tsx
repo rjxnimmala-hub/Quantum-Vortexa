@@ -9,16 +9,17 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div>
-            <div className="flex items-center gap-2 mb-6">
-              <Link href="/" className="flex items-center group">
-                <div className="relative w-[260px] h-[60px]">
-                  <Image 
-                    src="/images/logo.png" 
-                    alt="Quantum Vortexa Logo" 
-                    fill 
-                    className="object-contain"
+            <div className="flex flex-col gap-2 mb-6">
+              <Link href="/" className="flex flex-col group">
+                <div className="relative w-[260px] h-[100px]">
+                  <Image
+                    src="/images/icon.png"
+                    alt="Quantum Vortexa Logo"
+                    fill
+                    className="object-contain object-left"
                   />
                 </div>
+                {/* <span className="text-[10px] sm:text-xs font-semibold tracking-[0.2em] text-gray-400 mt-2 uppercase">A NEO ENERG Group Company</span> */}
               </Link>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-6">
@@ -67,7 +68,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-500">
           <p>
-            &copy; {new Date().getFullYear()} Quantum Vortexa FZE LLC. All rights reserved.
+            &copy; {new Date().getFullYear()} Quantum Vortexa FZE LLC (A Neo Energ Group Company). All rights reserved.
           </p>
           <div className="flex flex-wrap items-center gap-4 text-center md:text-right">
             <span>Trade License No: 262528109888</span>

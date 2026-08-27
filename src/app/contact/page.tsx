@@ -344,7 +344,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-xl font-bold text-white">Regional Headquarters</h3>
                   <p className="mt-2 text-sm leading-7 text-gray-300">
-                    Quantum Vortexa FZE LLC<br />
+                    Quantum Vortexa FZE LLC (A Neo Energ Group Company)<br />
                     CWS-1V-223327, 26th Floor, Amber Gem Tower<br />
                     Ajman Free Zone, United Arab Emirates
                   </p>
